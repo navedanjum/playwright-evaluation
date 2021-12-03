@@ -1,4 +1,12 @@
 [ {
+  "buildOrder" : 2,
+  "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/2/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "Product defects" : 5,
+    "Test defects" : 3
+  }
+}, {
   "buildOrder" : 1,
   "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/1/",
   "reportName" : "Allure Report with history",

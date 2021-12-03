@@ -1,0 +1,218 @@
+{
+  "uid" : "7cace0a8b17187a1",
+  "name" : "recorded test",
+  "fullName" : "recorded test",
+  "historyId" : "iPhone 11 recorded/sample.test.ts recorded test",
+  "time" : {
+    "start" : 1638542972585,
+    "stop" : 1638542982177,
+    "duration" : 9592
+  },
+  "status" : "failed",
+  "statusMessage" : "page.goto: Navigation interrupted by another one\n=========================== logs ===========================\nnavigating to \"https://deconv.com/explore/models\", waiting until \"load\"\n============================================================",
+  "statusTrace" : "page.goto: Navigation interrupted by another one\n=========================== logs ===========================\nnavigating to \"https://deconv.com/explore/models\", waiting until \"load\"\n============================================================\n    at /home/runner/work/playwright-evaluation/playwright-evaluation/e2etests/recorded/sample.test.ts:12:14",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "page.goto: Navigation interrupted by another one\n=========================== logs ===========================\nnavigating to \"https://deconv.com/explore/models\", waiting until \"load\"\n============================================================",
+    "statusTrace" : "page.goto: Navigation interrupted by another one\n=========================== logs ===========================\nnavigating to \"https://deconv.com/explore/models\", waiting until \"load\"\n============================================================\n    at /home/runner/work/playwright-evaluation/playwright-evaluation/e2etests/recorded/sample.test.ts:12:14",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1638542972585,
+        "stop" : 1638542973323,
+        "duration" : 738
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.newPage",
+        "time" : {
+          "start" : 1638542972633,
+          "stop" : 1638542973323,
+          "duration" : 690
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "page.goto(https://deconv.com/explore)",
+      "time" : {
+        "start" : 1638542973323,
+        "stop" : 1638542974646,
+        "duration" : 1323
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.click(text=Models)",
+      "time" : {
+        "start" : 1638542974647,
+        "stop" : 1638542975303,
+        "duration" : 656
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.goto(https://deconv.com/explore/models)",
+      "time" : {
+        "start" : 1638542975303,
+        "stop" : 1638542981345,
+        "duration" : 6042
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1638542981345,
+        "stop" : 1638542982177,
+        "duration" : 832
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1638542981599,
+          "stop" : 1638542981889,
+          "duration" : 290
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "ed4770399af00377",
+      "name" : "video",
+      "source" : "ed4770399af00377.webm",
+      "type" : "video/webm",
+      "size" : 231250
+    }, {
+      "uid" : "c1737a37f40887ac",
+      "name" : "trace",
+      "source" : "c1737a37f40887ac.ZIP",
+      "type" : "application/zip",
+      "size" : 793526
+    }, {
+      "uid" : "408ee0ec4a65cf43",
+      "name" : "screenshot",
+      "source" : "408ee0ec4a65cf43.png",
+      "type" : "image/png",
+      "size" : 147926
+    }, {
+      "uid" : "987cdd6a6add144c",
+      "name" : "trace",
+      "source" : "987cdd6a6add144c.ZIP",
+      "type" : "application/zip",
+      "size" : 422727
+    }, {
+      "uid" : "6ed8a0c51ae3b0fb",
+      "name" : "screenshot",
+      "source" : "6ed8a0c51ae3b0fb.png",
+      "type" : "image/png",
+      "size" : 7783
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "iPhone 11"
+  }, {
+    "name" : "suite",
+    "value" : "recorded/sample.test.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "c6f176b5241a3b44",
+        "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/1//#testresult/c6f176b5241a3b44",
+        "status" : "failed",
+        "statusDetails" : "page.goto: Navigation interrupted by another one\n=========================== logs ===========================\nnavigating to \"https://deconv.com/explore/models\", waiting until \"load\"\n============================================================",
+        "time" : {
+          "start" : 1638542078408,
+          "stop" : 1638542087699,
+          "duration" : 9291
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "7cace0a8b17187a1.json",
+  "parameterValues" : [ ]
+}

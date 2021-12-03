@@ -1,4 +1,11 @@
 [ {
+  "buildOrder" : 2,
+  "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/2/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 471972
+  }
+}, {
   "buildOrder" : 1,
   "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/1/",
   "reportName" : "Allure Report with history",

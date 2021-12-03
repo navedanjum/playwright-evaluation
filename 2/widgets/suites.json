@@ -1,0 +1,37 @@
+{
+  "total" : 3,
+  "items" : [ {
+    "uid" : "766b375f9458bb5fe1565ec8c36ca147",
+    "name" : "Firefox",
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 9
+    }
+  }, {
+    "uid" : "b8062eaccf145790e232b802c2a153aa",
+    "name" : "iPhone 11",
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 9
+    }
+  }, {
+    "uid" : "be3b43cb059a307900f233563156e40a",
+    "name" : "Chrome",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 9
+    }
+  } ]
+}

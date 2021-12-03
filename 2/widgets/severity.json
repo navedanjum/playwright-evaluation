@@ -1,0 +1,271 @@
+[ {
+  "uid" : "bffc225cbe79526f",
+  "name" : "second basic test",
+  "time" : {
+    "start" : 1638542920741,
+    "stop" : 1638542923348,
+    "duration" : 2607
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "131dd0bb309d423a",
+  "name" : "first basic test",
+  "time" : {
+    "start" : 1638542917786,
+    "stop" : 1638542920728,
+    "duration" : 2942
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "15ad3b1490f71bca",
+  "name" : "test",
+  "time" : {
+    "start" : 1638542774719,
+    "stop" : 1638542967409,
+    "duration" : 192690
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "8b00483c5ab3ad6f",
+  "name" : "test",
+  "time" : {
+    "start" : 1638542967998,
+    "stop" : 1638543158882,
+    "duration" : 190884
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b133c145284982e3",
+  "name" : "second basic test",
+  "time" : {
+    "start" : 1638542726506,
+    "stop" : 1638542729352,
+    "duration" : 2846
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9e53d24f9b5b2a5f",
+  "name" : "Authenticate from saved storage state",
+  "time" : {
+    "start" : 1638542766681,
+    "stop" : 1638542774713,
+    "duration" : 8032
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "19dd2985070dd6ab",
+  "name" : "second basic test",
+  "time" : {
+    "start" : 1638542689122,
+    "stop" : 1638542693638,
+    "duration" : 4516
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "867bae14d8b377a5",
+  "name" : "test",
+  "time" : {
+    "start" : 1638542707746,
+    "stop" : 1638542909300,
+    "duration" : 201554
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "413bdc00bc062102",
+  "name" : "third basic test",
+  "time" : {
+    "start" : 1638542923351,
+    "stop" : 1638542925670,
+    "duration" : 2319
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4ccdc38021739704",
+  "name" : "third basic test",
+  "time" : {
+    "start" : 1638542729355,
+    "stop" : 1638542731850,
+    "duration" : 2495
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bcbc2c520f3277ba",
+  "name" : "Models Page Object Model",
+  "time" : {
+    "start" : 1638542945604,
+    "stop" : 1638542964150,
+    "duration" : 18546
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "21b600c29eb3ab80",
+  "name" : "third basic test",
+  "time" : {
+    "start" : 1638542692047,
+    "stop" : 1638542694141,
+    "duration" : 2094
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "980f720f389b7530",
+  "name" : "Login Page Object Model",
+  "time" : {
+    "start" : 1638542731853,
+    "stop" : 1638542749842,
+    "duration" : 17989
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "770f9009b1b4747e",
+  "name" : "should return config",
+  "time" : {
+    "start" : 1638542726502,
+    "stop" : 1638542726503,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "54cabde8d95ac40d",
+  "name" : "first basic test",
+  "time" : {
+    "start" : 1638542686910,
+    "stop" : 1638542692042,
+    "duration" : 5132
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fa8babe72742f0d",
+  "name" : "recorded test",
+  "time" : {
+    "start" : 1638542713236,
+    "stop" : 1638542721892,
+    "duration" : 8656
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f66da998edf9c7b1",
+  "name" : "Login Page Object Model",
+  "time" : {
+    "start" : 1638542693642,
+    "stop" : 1638542712786,
+    "duration" : 19144
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "817ee47f4034277c",
+  "name" : "Models Page Object Model",
+  "time" : {
+    "start" : 1638542694145,
+    "stop" : 1638542701331,
+    "duration" : 7186
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1e7b00885e412ada",
+  "name" : "Authenticate from saved storage state",
+  "time" : {
+    "start" : 1638542964153,
+    "stop" : 1638542972583,
+    "duration" : 8430
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "36c75d512b09e50f",
+  "name" : "Authenticate from saved storage state",
+  "time" : {
+    "start" : 1638542701334,
+    "stop" : 1638542707741,
+    "duration" : 6407
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d350a81db13c01f9",
+  "name" : "should return config",
+  "time" : {
+    "start" : 1638542687144,
+    "stop" : 1638542689112,
+    "duration" : 1968
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7cace0a8b17187a1",
+  "name" : "recorded test",
+  "time" : {
+    "start" : 1638542972585,
+    "stop" : 1638542982177,
+    "duration" : 9592
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "38ee1ff75817ae93",
+  "name" : "Login Page Object Model",
+  "time" : {
+    "start" : 1638542925676,
+    "stop" : 1638542945149,
+    "duration" : 19473
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "cbd3aa36d9202d31",
+  "name" : "first basic test",
+  "time" : {
+    "start" : 1638542722363,
+    "stop" : 1638542726498,
+    "duration" : 4135
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5a7413cf73c8f195",
+  "name" : "recorded test",
+  "time" : {
+    "start" : 1638542909967,
+    "stop" : 1638542916646,
+    "duration" : 6679
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "e8c8f79c8917880e",
+  "name" : "should return config",
+  "time" : {
+    "start" : 1638542920733,
+    "stop" : 1638542920734,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "494abcd095f71501",
+  "name" : "Models Page Object Model",
+  "time" : {
+    "start" : 1638542750762,
+    "stop" : 1638542766675,
+    "duration" : 15913
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

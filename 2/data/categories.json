@@ -1,0 +1,133 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expect(received).toBeVisible()\n\nCall log:\n  - waiting for selector \"text=Login successful\"\n",
+      "children" : [ {
+        "name" : "Login Page Object Model",
+        "uid" : "f66da998edf9c7b1",
+        "parentUid" : "d5374d7fa76d4b77cc3c7fac676a334b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1638542693642,
+          "stop" : 1638542712786,
+          "duration" : 19144
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login Page Object Model",
+        "uid" : "980f720f389b7530",
+        "parentUid" : "d5374d7fa76d4b77cc3c7fac676a334b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1638542731853,
+          "stop" : 1638542749842,
+          "duration" : 17989
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login Page Object Model",
+        "uid" : "38ee1ff75817ae93",
+        "parentUid" : "d5374d7fa76d4b77cc3c7fac676a334b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1638542925676,
+          "stop" : 1638542945149,
+          "duration" : 19473
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d5374d7fa76d4b77cc3c7fac676a334b"
+    }, {
+      "name" : "page.goto: NS_BINDING_ABORTED\n=========================== logs ===========================\nnavigating to \"https://deconv.com/explore/models\", waiting until \"load\"\n============================================================",
+      "children" : [ {
+        "name" : "recorded test",
+        "uid" : "5a7413cf73c8f195",
+        "parentUid" : "b4a876259ff3eb96a3b2439b60ae6458",
+        "status" : "failed",
+        "time" : {
+          "start" : 1638542909967,
+          "stop" : 1638542916646,
+          "duration" : 6679
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b4a876259ff3eb96a3b2439b60ae6458"
+    }, {
+      "name" : "page.goto: Navigation interrupted by another one\n=========================== logs ===========================\nnavigating to \"https://deconv.com/explore/models\", waiting until \"load\"\n============================================================",
+      "children" : [ {
+        "name" : "recorded test",
+        "uid" : "7cace0a8b17187a1",
+        "parentUid" : "559edb9f4479f579e70e09a47f2780af",
+        "status" : "failed",
+        "time" : {
+          "start" : 1638542972585,
+          "stop" : 1638542982177,
+          "duration" : 9592
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "559edb9f4479f579e70e09a47f2780af"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "page.waitForNavigation: Navigation failed because page was closed!\n=========================== logs ===========================\nwaiting for navigation until \"load\"\n============================================================",
+      "children" : [ {
+        "name" : "test",
+        "uid" : "867bae14d8b377a5",
+        "parentUid" : "2b8ecdcf08ac03636c19d4dba9dc89aa",
+        "status" : "broken",
+        "time" : {
+          "start" : 1638542707746,
+          "stop" : 1638542909300,
+          "duration" : 201554
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test",
+        "uid" : "15ad3b1490f71bca",
+        "parentUid" : "2b8ecdcf08ac03636c19d4dba9dc89aa",
+        "status" : "broken",
+        "time" : {
+          "start" : 1638542774719,
+          "stop" : 1638542967409,
+          "duration" : 192690
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test",
+        "uid" : "8b00483c5ab3ad6f",
+        "parentUid" : "2b8ecdcf08ac03636c19d4dba9dc89aa",
+        "status" : "broken",
+        "time" : {
+          "start" : 1638542967998,
+          "stop" : 1638543158882,
+          "duration" : 190884
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2b8ecdcf08ac03636c19d4dba9dc89aa"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

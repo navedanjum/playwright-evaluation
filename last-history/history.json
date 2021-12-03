@@ -1,14 +1,24 @@
 {
   "Firefox recorded/sample.test.ts recorded test" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "5a7413cf73c8f195",
+      "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/2//#testresult/5a7413cf73c8f195",
+      "status" : "failed",
+      "statusDetails" : "page.goto: NS_BINDING_ABORTED\n=========================== logs ===========================\nnavigating to \"https://deconv.com/explore/models\", waiting until \"load\"\n============================================================",
+      "time" : {
+        "start" : 1638542909967,
+        "stop" : 1638542916646,
+        "duration" : 6679
+      }
+    }, {
       "uid" : "522422cd734a4d12",
       "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/1//#testresult/522422cd734a4d12",
       "status" : "failed",
@@ -25,11 +35,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "413bdc00bc062102",
+      "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/2//#testresult/413bdc00bc062102",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638542923351,
+        "stop" : 1638542925670,
+        "duration" : 2319
+      }
+    }, {
       "uid" : "9115be0d35af52a1",
       "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/1//#testresult/9115be0d35af52a1",
       "status" : "passed",
@@ -43,13 +62,23 @@
   "Chrome recorded/login.test.ts test" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "867bae14d8b377a5",
+      "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/2//#testresult/867bae14d8b377a5",
+      "status" : "broken",
+      "statusDetails" : "page.waitForNavigation: Navigation failed because page was closed!\n=========================== logs ===========================\nwaiting for navigation until \"load\"\n============================================================",
+      "time" : {
+        "start" : 1638542707746,
+        "stop" : 1638542909300,
+        "duration" : 201554
+      }
+    }, {
       "uid" : "a4e07dcfa0b1d0dd",
       "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/1//#testresult/a4e07dcfa0b1d0dd",
       "status" : "broken",
@@ -66,11 +95,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "e8c8f79c8917880e",
+      "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/2//#testresult/e8c8f79c8917880e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638542920733,
+        "stop" : 1638542920734,
+        "duration" : 1
+      }
+    }, {
       "uid" : "7adb1d12bb91cfe",
       "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/1//#testresult/7adb1d12bb91cfe",
       "status" : "passed",
@@ -86,11 +124,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "36c75d512b09e50f",
+      "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/2//#testresult/36c75d512b09e50f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638542701334,
+        "stop" : 1638542707741,
+        "duration" : 6407
+      }
+    }, {
       "uid" : "b3a079b8ea654d7c",
       "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/1//#testresult/b3a079b8ea654d7c",
       "status" : "passed",
@@ -106,11 +153,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "131dd0bb309d423a",
+      "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/2//#testresult/131dd0bb309d423a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638542917786,
+        "stop" : 1638542920728,
+        "duration" : 2942
+      }
+    }, {
       "uid" : "5bc38f73ca5ca682",
       "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/1//#testresult/5bc38f73ca5ca682",
       "status" : "passed",
@@ -126,11 +182,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "21b600c29eb3ab80",
+      "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/2//#testresult/21b600c29eb3ab80",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638542692047,
+        "stop" : 1638542694141,
+        "duration" : 2094
+      }
+    }, {
       "uid" : "1f2ce06dc307ac3e",
       "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/1//#testresult/1f2ce06dc307ac3e",
       "status" : "passed",
@@ -146,11 +211,20 @@
       "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "494abcd095f71501",
+      "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/2//#testresult/494abcd095f71501",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638542750762,
+        "stop" : 1638542766675,
+        "duration" : 15913
+      }
+    }, {
       "uid" : "ba813b878c6d9357",
       "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/1//#testresult/ba813b878c6d9357",
       "status" : "failed",
@@ -164,14 +238,24 @@
   },
   "Chrome pom/login_pom.test.ts Login Page Object Model" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "f66da998edf9c7b1",
+      "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/2//#testresult/f66da998edf9c7b1",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toBeVisible()\n\nCall log:\n  - waiting for selector \"text=Login successful\"\n",
+      "time" : {
+        "start" : 1638542693642,
+        "stop" : 1638542712786,
+        "duration" : 19144
+      }
+    }, {
       "uid" : "5e046c420fe22495",
       "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/1//#testresult/5e046c420fe22495",
       "status" : "failed",
@@ -188,11 +272,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "fa8babe72742f0d",
+      "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/2//#testresult/fa8babe72742f0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638542713236,
+        "stop" : 1638542721892,
+        "duration" : 8656
+      }
+    }, {
       "uid" : "905b7342d187f51c",
       "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/1//#testresult/905b7342d187f51c",
       "status" : "passed",
@@ -208,11 +301,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "817ee47f4034277c",
+      "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/2//#testresult/817ee47f4034277c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638542694145,
+        "stop" : 1638542701331,
+        "duration" : 7186
+      }
+    }, {
       "uid" : "a73c41a52eed3b1a",
       "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/1//#testresult/a73c41a52eed3b1a",
       "status" : "passed",
@@ -226,13 +328,23 @@
   "Firefox recorded/login.test.ts test" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "15ad3b1490f71bca",
+      "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/2//#testresult/15ad3b1490f71bca",
+      "status" : "broken",
+      "statusDetails" : "page.waitForNavigation: Navigation failed because page was closed!\n=========================== logs ===========================\nwaiting for navigation until \"load\"\n============================================================",
+      "time" : {
+        "start" : 1638542774719,
+        "stop" : 1638542967409,
+        "duration" : 192690
+      }
+    }, {
       "uid" : "997de0048e3bf6fc",
       "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/1//#testresult/997de0048e3bf6fc",
       "status" : "broken",
@@ -247,13 +359,23 @@
   "iPhone 11 recorded/login.test.ts test" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "8b00483c5ab3ad6f",
+      "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/2//#testresult/8b00483c5ab3ad6f",
+      "status" : "broken",
+      "statusDetails" : "page.waitForNavigation: Navigation failed because page was closed!\n=========================== logs ===========================\nwaiting for navigation until \"load\"\n============================================================",
+      "time" : {
+        "start" : 1638542967998,
+        "stop" : 1638543158882,
+        "duration" : 190884
+      }
+    }, {
       "uid" : "8e10d44460704282",
       "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/1//#testresult/8e10d44460704282",
       "status" : "broken",
@@ -270,11 +392,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "bffc225cbe79526f",
+      "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/2//#testresult/bffc225cbe79526f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638542920741,
+        "stop" : 1638542923348,
+        "duration" : 2607
+      }
+    }, {
       "uid" : "2be35367a87031d",
       "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/1//#testresult/2be35367a87031d",
       "status" : "passed",
@@ -287,14 +418,24 @@
   },
   "iPhone 11 recorded/sample.test.ts recorded test" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "7cace0a8b17187a1",
+      "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/2//#testresult/7cace0a8b17187a1",
+      "status" : "failed",
+      "statusDetails" : "page.goto: Navigation interrupted by another one\n=========================== logs ===========================\nnavigating to \"https://deconv.com/explore/models\", waiting until \"load\"\n============================================================",
+      "time" : {
+        "start" : 1638542972585,
+        "stop" : 1638542982177,
+        "duration" : 9592
+      }
+    }, {
       "uid" : "c6f176b5241a3b44",
       "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/1//#testresult/c6f176b5241a3b44",
       "status" : "failed",
@@ -311,11 +452,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "bcbc2c520f3277ba",
+      "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/2//#testresult/bcbc2c520f3277ba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638542945604,
+        "stop" : 1638542964150,
+        "duration" : 18546
+      }
+    }, {
       "uid" : "d9041bd67ab51628",
       "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/1//#testresult/d9041bd67ab51628",
       "status" : "passed",
@@ -331,11 +481,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "19dd2985070dd6ab",
+      "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/2//#testresult/19dd2985070dd6ab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638542689122,
+        "stop" : 1638542693638,
+        "duration" : 4516
+      }
+    }, {
       "uid" : "51a44cd7c768e8c8",
       "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/1//#testresult/51a44cd7c768e8c8",
       "status" : "passed",
@@ -351,11 +510,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "1e7b00885e412ada",
+      "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/2//#testresult/1e7b00885e412ada",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638542964153,
+        "stop" : 1638542972583,
+        "duration" : 8430
+      }
+    }, {
       "uid" : "e305d2de5b95715a",
       "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/1//#testresult/e305d2de5b95715a",
       "status" : "passed",
@@ -371,11 +539,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "9e53d24f9b5b2a5f",
+      "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/2//#testresult/9e53d24f9b5b2a5f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638542766681,
+        "stop" : 1638542774713,
+        "duration" : 8032
+      }
+    }, {
       "uid" : "46ca0c8b37692dad",
       "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/1//#testresult/46ca0c8b37692dad",
       "status" : "passed",
@@ -391,11 +568,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "d350a81db13c01f9",
+      "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/2//#testresult/d350a81db13c01f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638542687144,
+        "stop" : 1638542689112,
+        "duration" : 1968
+      }
+    }, {
       "uid" : "ade517a41a161a3d",
       "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/1//#testresult/ade517a41a161a3d",
       "status" : "passed",
@@ -411,11 +597,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "4ccdc38021739704",
+      "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/2//#testresult/4ccdc38021739704",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638542729355,
+        "stop" : 1638542731850,
+        "duration" : 2495
+      }
+    }, {
       "uid" : "36d649748e7170de",
       "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/1//#testresult/36d649748e7170de",
       "status" : "passed",
@@ -431,11 +626,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "cbd3aa36d9202d31",
+      "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/2//#testresult/cbd3aa36d9202d31",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638542722363,
+        "stop" : 1638542726498,
+        "duration" : 4135
+      }
+    }, {
       "uid" : "5faa06645ae2f662",
       "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/1//#testresult/5faa06645ae2f662",
       "status" : "passed",
@@ -448,14 +652,24 @@
   },
   "Firefox pom/login_pom.test.ts Login Page Object Model" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "980f720f389b7530",
+      "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/2//#testresult/980f720f389b7530",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toBeVisible()\n\nCall log:\n  - waiting for selector \"text=Login successful\"\n",
+      "time" : {
+        "start" : 1638542731853,
+        "stop" : 1638542749842,
+        "duration" : 17989
+      }
+    }, {
       "uid" : "8256b1f71a9905eb",
       "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/1//#testresult/8256b1f71a9905eb",
       "status" : "failed",
@@ -472,11 +686,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "770f9009b1b4747e",
+      "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/2//#testresult/770f9009b1b4747e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638542726502,
+        "stop" : 1638542726503,
+        "duration" : 1
+      }
+    }, {
       "uid" : "9efbf6b341f396c2",
       "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/1//#testresult/9efbf6b341f396c2",
       "status" : "passed",
@@ -492,11 +715,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "b133c145284982e3",
+      "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/2//#testresult/b133c145284982e3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638542726506,
+        "stop" : 1638542729352,
+        "duration" : 2846
+      }
+    }, {
       "uid" : "65c18b5471379e8d",
       "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/1//#testresult/65c18b5471379e8d",
       "status" : "passed",
@@ -509,14 +741,24 @@
   },
   "iPhone 11 pom/login_pom.test.ts Login Page Object Model" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "38ee1ff75817ae93",
+      "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/2//#testresult/38ee1ff75817ae93",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toBeVisible()\n\nCall log:\n  - waiting for selector \"text=Login successful\"\n",
+      "time" : {
+        "start" : 1638542925676,
+        "stop" : 1638542945149,
+        "duration" : 19473
+      }
+    }, {
       "uid" : "14e30b352e30529e",
       "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/1//#testresult/14e30b352e30529e",
       "status" : "failed",
@@ -533,11 +775,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "54cabde8d95ac40d",
+      "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/2//#testresult/54cabde8d95ac40d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638542686910,
+        "stop" : 1638542692042,
+        "duration" : 5132
+      }
+    }, {
       "uid" : "52ce2f7f205476dd",
       "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/1//#testresult/52ce2f7f205476dd",
       "status" : "passed",

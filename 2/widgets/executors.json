@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://navedanjum.github.io/playwright-evaluation",
+  "buildOrder" : 2,
+  "buildName" : "GitHub Actions Run #1535674909",
+  "buildUrl" : "https://github.com/navedanjum/playwright-evaluation/actions/runs/1535674909",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/2/"
+} ]

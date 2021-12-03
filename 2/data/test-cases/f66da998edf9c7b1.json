@@ -1,0 +1,251 @@
+{
+  "uid" : "f66da998edf9c7b1",
+  "name" : "Login Page Object Model",
+  "fullName" : "Login Page Object Model",
+  "historyId" : "Chrome pom/login_pom.test.ts Login Page Object Model",
+  "time" : {
+    "start" : 1638542693642,
+    "stop" : 1638542712786,
+    "duration" : 19144
+  },
+  "status" : "failed",
+  "statusMessage" : "expect(received).toBeVisible()\n\nCall log:\n  - waiting for selector \"text=Login successful\"\n",
+  "statusTrace" : "\n    at /home/runner/work/playwright-evaluation/playwright-evaluation/e2etests/pom/login_pom.test.ts:9:57\n    at WorkerRunner._runTestWithBeforeHooks (/home/runner/work/playwright-evaluation/playwright-evaluation/node_modules/@playwright/test/lib/workerRunner.js:478:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expect(received).toBeVisible()\n\nCall log:\n  - waiting for selector \"text=Login successful\"\n",
+    "statusTrace" : "\n    at /home/runner/work/playwright-evaluation/playwright-evaluation/e2etests/pom/login_pom.test.ts:9:57\n    at WorkerRunner._runTestWithBeforeHooks (/home/runner/work/playwright-evaluation/playwright-evaluation/node_modules/@playwright/test/lib/workerRunner.js:478:7)",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1638542693642,
+        "stop" : 1638542693805,
+        "duration" : 163
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.newPage",
+        "time" : {
+          "start" : 1638542693656,
+          "stop" : 1638542693805,
+          "duration" : 149
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "page.goto(/login)",
+      "time" : {
+        "start" : 1638542693807,
+        "stop" : 1638542694789,
+        "duration" : 982
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expect.toHaveURL",
+      "time" : {
+        "start" : 1638542694791,
+        "stop" : 1638542695225,
+        "duration" : 434
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.type(id=email, foobarblahblah@clarifai.com)",
+      "time" : {
+        "start" : 1638542695226,
+        "stop" : 1638542695511,
+        "duration" : 285
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.type(id=password, ********)",
+      "time" : {
+        "start" : 1638542695512,
+        "stop" : 1638542695582,
+        "duration" : 70
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.click(data-testid=signInButton)",
+      "time" : {
+        "start" : 1638542695582,
+        "stop" : 1638542695730,
+        "duration" : 148
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expect.toBeVisible",
+      "time" : {
+        "start" : 1638542695731,
+        "stop" : 1638542710753,
+        "duration" : 15022
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1638542710754,
+        "stop" : 1638542712786,
+        "duration" : 2032
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1638542711017,
+          "stop" : 1638542712783,
+          "duration" : 1766
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "a194240f5f4d9f1e",
+      "name" : "video",
+      "source" : "a194240f5f4d9f1e.webm",
+      "type" : "video/webm",
+      "size" : 377624
+    }, {
+      "uid" : "b800a682a2bc2938",
+      "name" : "trace",
+      "source" : "b800a682a2bc2938.ZIP",
+      "type" : "application/zip",
+      "size" : 709624
+    }, {
+      "uid" : "a8ad60260088af4e",
+      "name" : "screenshot",
+      "source" : "a8ad60260088af4e.png",
+      "type" : "image/png",
+      "size" : 140358
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 10,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Chrome"
+  }, {
+    "name" : "suite",
+    "value" : "pom/login_pom.test.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "5e046c420fe22495",
+        "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/1//#testresult/5e046c420fe22495",
+        "status" : "failed",
+        "statusDetails" : "expect(received).toBeVisible()\n\nCall log:\n  - waiting for selector \"text=Login successful\"\n",
+        "time" : {
+          "start" : 1638541824064,
+          "stop" : 1638541842699,
+          "duration" : 18635
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f66da998edf9c7b1.json",
+  "parameterValues" : [ ]
+}
