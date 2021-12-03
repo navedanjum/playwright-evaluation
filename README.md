@@ -96,7 +96,7 @@ yarn allure:serve  - Generate report to temp directory
 - Test report can be availabled as github artifacts as attachment or hosted on reposity github pages like one below:
 To access previous history report try https://navedanjum.github.io/playwright-evaluation/{N}/  , replace N with  build number,  1,2,3…etc
 - Latest Allure report hosted on github page: https://navedanjum.github.io/playwright-evaluation/
-- Access history reports example : https://navedanjum.github.io/playwright-evaluation/12
+- Access history reports example : https://navedanjum.github.io/playwright-evaluation/2
 
 - <b>Overview</b>
   ![Overall Report Screenshot][overall-report-screenshot]
