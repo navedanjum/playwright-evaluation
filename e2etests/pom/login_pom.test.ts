@@ -8,4 +8,5 @@ test('Login Page Object Model', async ({ page }) => {
     await loginPage.loginToApps();
     await expect(page.locator('text=Login successful')).toBeVisible();
     await expect(page.locator('button:has-text("FU")')).toBeVisible();
+
   });
