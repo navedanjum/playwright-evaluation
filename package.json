@@ -1,0 +1,31 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "description": "Playwright test tool usage demo",
+  "main": "index.js",
+  "repository": "https://github.com/navedanjum/playwright-demo",
+  "author": "Navedanjum A",
+  "license": "MIT",
+  "scripts": {
+    "test": "yarn cross-env ENV=dev playwright test",
+    "test:parallel": "yarn playwright test --workers=3 --project=Chrome",
+    "test:serial": "yarn playwright test --workers=1 --project=Chrome",
+    "test:record": "yarn playwright codegen",
+    "htmlReport": "yarn playwright show-report html-report",
+    "allure:generate": "allure generate ./allure-results --clean",
+    "allure:open": "allure open ./allure-report",
+    "allure:serve": "allure serve"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.16.3",
+    "@typescript-eslint/eslint-plugin": "^4.16.1",
+    "@typescript-eslint/parser": "^4.16.1",
+    "cross-env": "^7.0.3",
+    "eslint": "^7.32.0",
+    "eslint-plugin-import": "2.22.1",
+    "playwright": "^1.16.3",
+    "typescript": "^4.3.4",
+    "@types/rimraf": "^3.0.2",
+    "allure-playwright": "^2.0.0-beta.14"
+  }
+}
