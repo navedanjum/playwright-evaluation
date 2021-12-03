@@ -1,0 +1,9 @@
+[ {
+  "buildOrder" : 1,
+  "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/1/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "run" : 27,
+    "retry" : 0
+  }
+} ]

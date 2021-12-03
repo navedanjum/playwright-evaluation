@@ -1,0 +1,290 @@
+{
+  "uid" : "8e10d44460704282",
+  "name" : "test",
+  "fullName" : "test",
+  "historyId" : "iPhone 11 recorded/login.test.ts test",
+  "time" : {
+    "start" : 1638542072189,
+    "stop" : 1638542260963,
+    "duration" : 188774
+  },
+  "status" : "broken",
+  "statusMessage" : "page.waitForNavigation: Navigation failed because page was closed!\n=========================== logs ===========================\nwaiting for navigation until \"load\"\n============================================================",
+  "statusTrace" : "page.waitForNavigation: Navigation failed because page was closed!\n=========================== logs ===========================\nwaiting for navigation until \"load\"\n============================================================\n    at /home/runner/work/playwright-evaluation/playwright-evaluation/e2etests/recorded/login.test.ts:29:10",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "page.waitForNavigation: Navigation failed because page was closed!\n=========================== logs ===========================\nwaiting for navigation until \"load\"\n============================================================",
+    "statusTrace" : "page.waitForNavigation: Navigation failed because page was closed!\n=========================== logs ===========================\nwaiting for navigation until \"load\"\n============================================================\n    at /home/runner/work/playwright-evaluation/playwright-evaluation/e2etests/recorded/login.test.ts:29:10",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1638542072189,
+        "stop" : 1638542073436,
+        "duration" : 1247
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.newPage",
+        "time" : {
+          "start" : 1638542072633,
+          "stop" : 1638542073436,
+          "duration" : 803
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "page.goto(/explore)",
+      "time" : {
+        "start" : 1638542073440,
+        "stop" : 1638542074809,
+        "duration" : 1369
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.click(text=Log in)",
+      "time" : {
+        "start" : 1638542074815,
+        "stop" : 1638542075203,
+        "duration" : 388
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expect.toHaveURL",
+      "time" : {
+        "start" : 1638542075205,
+        "stop" : 1638542075522,
+        "duration" : 317
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.click([placeholder=\"Email\"])",
+      "time" : {
+        "start" : 1638542075523,
+        "stop" : 1638542075686,
+        "duration" : 163
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.fill([placeholder=\"Email\"])",
+      "time" : {
+        "start" : 1638542075687,
+        "stop" : 1638542075825,
+        "duration" : 138
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.click([placeholder=\"Password\"])",
+      "time" : {
+        "start" : 1638542075825,
+        "stop" : 1638542076004,
+        "duration" : 179
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.click([placeholder=\"Password\"])",
+      "time" : {
+        "start" : 1638542076004,
+        "stop" : 1638542076208,
+        "duration" : 204
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.fill([placeholder=\"Password\"])",
+      "time" : {
+        "start" : 1638542076208,
+        "stop" : 1638542076337,
+        "duration" : 129
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.waitForNavigation",
+      "time" : {
+        "start" : 1638542076338,
+        "stop" : 1638542252374,
+        "duration" : 176036
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.click([data-testid=\"signInButton\"])",
+      "time" : {
+        "start" : 1638542076339,
+        "stop" : 1638542076440,
+        "duration" : 101
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1638542252204,
+        "stop" : 1638542260963,
+        "duration" : 8759
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1638542252365,
+          "stop" : 1638542260958,
+          "duration" : 8593
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "48c7540d9b869a46",
+      "name" : "video",
+      "source" : "48c7540d9b869a46.webm",
+      "type" : "video/webm",
+      "size" : 3159165
+    }, {
+      "uid" : "f7c247800636fac8",
+      "name" : "trace",
+      "source" : "f7c247800636fac8.ZIP",
+      "type" : "application/zip",
+      "size" : 380512
+    }, {
+      "uid" : "3f58ee85a4639fec",
+      "name" : "screenshot",
+      "source" : "3f58ee85a4639fec.png",
+      "type" : "image/png",
+      "size" : 60032
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 14,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "iPhone 11"
+  }, {
+    "name" : "suite",
+    "value" : "recorded/login.test.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "8e10d44460704282.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,271 @@
+[ {
+  "uid" : "a73c41a52eed3b1a",
+  "name" : "Models Page Object Model",
+  "time" : {
+    "start" : 1638541825138,
+    "stop" : 1638541832681,
+    "duration" : 7543
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9115be0d35af52a1",
+  "name" : "third basic test",
+  "time" : {
+    "start" : 1638542050562,
+    "stop" : 1638542052755,
+    "duration" : 2193
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a4e07dcfa0b1d0dd",
+  "name" : "test",
+  "time" : {
+    "start" : 1638541838846,
+    "stop" : 1638542037804,
+    "duration" : 198958
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "997de0048e3bf6fc",
+  "name" : "test",
+  "time" : {
+    "start" : 1638541881147,
+    "stop" : 1638542061815,
+    "duration" : 180668
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1f2ce06dc307ac3e",
+  "name" : "third basic test",
+  "time" : {
+    "start" : 1638541823347,
+    "stop" : 1638541825131,
+    "duration" : 1784
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ba813b878c6d9357",
+  "name" : "Models Page Object Model",
+  "time" : {
+    "start" : 1638541862653,
+    "stop" : 1638541871497,
+    "duration" : 8844
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "9efbf6b341f396c2",
+  "name" : "should return config",
+  "time" : {
+    "start" : 1638541856869,
+    "stop" : 1638541856873,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c6f176b5241a3b44",
+  "name" : "recorded test",
+  "time" : {
+    "start" : 1638542078408,
+    "stop" : 1638542087699,
+    "duration" : 9291
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "5bc38f73ca5ca682",
+  "name" : "first basic test",
+  "time" : {
+    "start" : 1638542044933,
+    "stop" : 1638542047026,
+    "duration" : 2093
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "522422cd734a4d12",
+  "name" : "recorded test",
+  "time" : {
+    "start" : 1638542038346,
+    "stop" : 1638542043971,
+    "duration" : 5625
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "905b7342d187f51c",
+  "name" : "recorded test",
+  "time" : {
+    "start" : 1638541843079,
+    "stop" : 1638541852033,
+    "duration" : 8954
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7adb1d12bb91cfe",
+  "name" : "should return config",
+  "time" : {
+    "start" : 1638542047029,
+    "stop" : 1638542047030,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d9041bd67ab51628",
+  "name" : "Models Page Object Model",
+  "time" : {
+    "start" : 1638542062146,
+    "stop" : 1638542071453,
+    "duration" : 9307
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e305d2de5b95715a",
+  "name" : "Authenticate from saved storage state",
+  "time" : {
+    "start" : 1638542071456,
+    "stop" : 1638542078406,
+    "duration" : 6950
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5faa06645ae2f662",
+  "name" : "first basic test",
+  "time" : {
+    "start" : 1638541852423,
+    "stop" : 1638541856865,
+    "duration" : 4442
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8256b1f71a9905eb",
+  "name" : "Login Page Object Model",
+  "time" : {
+    "start" : 1638541862289,
+    "stop" : 1638541862302,
+    "duration" : 13
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "36d649748e7170de",
+  "name" : "third basic test",
+  "time" : {
+    "start" : 1638541859853,
+    "stop" : 1638541862285,
+    "duration" : 2432
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8e10d44460704282",
+  "name" : "test",
+  "time" : {
+    "start" : 1638542072189,
+    "stop" : 1638542260963,
+    "duration" : 188774
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "52ce2f7f205476dd",
+  "name" : "first basic test",
+  "time" : {
+    "start" : 1638541820951,
+    "stop" : 1638541823345,
+    "duration" : 2394
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5e046c420fe22495",
+  "name" : "Login Page Object Model",
+  "time" : {
+    "start" : 1638541824064,
+    "stop" : 1638541842699,
+    "duration" : 18635
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "2be35367a87031d",
+  "name" : "second basic test",
+  "time" : {
+    "start" : 1638542047032,
+    "stop" : 1638542050560,
+    "duration" : 3528
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "51a44cd7c768e8c8",
+  "name" : "second basic test",
+  "time" : {
+    "start" : 1638541821784,
+    "stop" : 1638541824060,
+    "duration" : 2276
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "14e30b352e30529e",
+  "name" : "Login Page Object Model",
+  "time" : {
+    "start" : 1638542052758,
+    "stop" : 1638542071829,
+    "duration" : 19071
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "b3a079b8ea654d7c",
+  "name" : "Authenticate from saved storage state",
+  "time" : {
+    "start" : 1638541832684,
+    "stop" : 1638541838842,
+    "duration" : 6158
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ade517a41a161a3d",
+  "name" : "should return config",
+  "time" : {
+    "start" : 1638541821159,
+    "stop" : 1638541821779,
+    "duration" : 620
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "65c18b5471379e8d",
+  "name" : "second basic test",
+  "time" : {
+    "start" : 1638541856875,
+    "stop" : 1638541859850,
+    "duration" : 2975
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "46ca0c8b37692dad",
+  "name" : "Authenticate from saved storage state",
+  "time" : {
+    "start" : 1638541871831,
+    "stop" : 1638541881143,
+    "duration" : 9312
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

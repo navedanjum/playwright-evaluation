@@ -1,0 +1,9 @@
+[ {
+  "buildOrder" : 1,
+  "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/1/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "Product defects" : 6,
+    "Test defects" : 3
+  }
+} ]

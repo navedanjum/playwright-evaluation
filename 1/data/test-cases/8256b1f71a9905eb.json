@@ -1,0 +1,92 @@
+{
+  "uid" : "8256b1f71a9905eb",
+  "name" : "Login Page Object Model",
+  "fullName" : "Login Page Object Model",
+  "historyId" : "Firefox pom/login_pom.test.ts Login Page Object Model",
+  "time" : {
+    "start" : 1638541862289,
+    "stop" : 1638541862302,
+    "duration" : 13
+  },
+  "status" : "failed",
+  "statusMessage" : "browser.newContext: Target page, context or browser has been closed",
+  "statusTrace" : "browser.newContext: Target page, context or browser has been closed\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "browser.newContext: Target page, context or browser has been closed",
+    "statusTrace" : "browser.newContext: Target page, context or browser has been closed\n",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1638541862289,
+        "stop" : 1638541862302,
+        "duration" : 13
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1638541862302,
+        "stop" : 1638541862302,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Firefox"
+  }, {
+    "name" : "suite",
+    "value" : "pom/login_pom.test.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "8256b1f71a9905eb.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,185 @@
+{
+  "uid" : "522422cd734a4d12",
+  "name" : "recorded test",
+  "fullName" : "recorded test",
+  "historyId" : "Firefox recorded/sample.test.ts recorded test",
+  "time" : {
+    "start" : 1638542038346,
+    "stop" : 1638542043971,
+    "duration" : 5625
+  },
+  "status" : "failed",
+  "statusMessage" : "page.goto: NS_BINDING_ABORTED; maybe frame was detached?\n=========================== logs ===========================\nnavigating to \"https://deconv.com/explore/models\", waiting until \"load\"\n============================================================",
+  "statusTrace" : "page.goto: NS_BINDING_ABORTED; maybe frame was detached?\n=========================== logs ===========================\nnavigating to \"https://deconv.com/explore/models\", waiting until \"load\"\n============================================================\n    at /home/runner/work/playwright-evaluation/playwright-evaluation/e2etests/recorded/sample.test.ts:12:14",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "page.goto: NS_BINDING_ABORTED; maybe frame was detached?\n=========================== logs ===========================\nnavigating to \"https://deconv.com/explore/models\", waiting until \"load\"\n============================================================",
+    "statusTrace" : "page.goto: NS_BINDING_ABORTED; maybe frame was detached?\n=========================== logs ===========================\nnavigating to \"https://deconv.com/explore/models\", waiting until \"load\"\n============================================================\n    at /home/runner/work/playwright-evaluation/playwright-evaluation/e2etests/recorded/sample.test.ts:12:14",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1638542038347,
+        "stop" : 1638542040380,
+        "duration" : 2033
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.newPage",
+        "time" : {
+          "start" : 1638542039809,
+          "stop" : 1638542040380,
+          "duration" : 571
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "page.goto(https://deconv.com/explore)",
+      "time" : {
+        "start" : 1638542040381,
+        "stop" : 1638542042896,
+        "duration" : 2515
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.click(text=Models)",
+      "time" : {
+        "start" : 1638542042898,
+        "stop" : 1638542043499,
+        "duration" : 601
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.goto(https://deconv.com/explore/models)",
+      "time" : {
+        "start" : 1638542043500,
+        "stop" : 1638542043566,
+        "duration" : 66
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1638542043566,
+        "stop" : 1638542043971,
+        "duration" : 405
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1638542043918,
+          "stop" : 1638542043969,
+          "duration" : 51
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "243f87eee6bb7cf2",
+      "name" : "video",
+      "source" : "243f87eee6bb7cf2.webm",
+      "type" : "video/webm",
+      "size" : 93829
+    }, {
+      "uid" : "85b835a012e37df8",
+      "name" : "trace",
+      "source" : "85b835a012e37df8.ZIP",
+      "type" : "application/zip",
+      "size" : 843296
+    }, {
+      "uid" : "42e8574ea6fe15b8",
+      "name" : "screenshot",
+      "source" : "42e8574ea6fe15b8.png",
+      "type" : "image/png",
+      "size" : 108501
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Firefox"
+  }, {
+    "name" : "suite",
+    "value" : "recorded/sample.test.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "522422cd734a4d12.json",
+  "parameterValues" : [ ]
+}

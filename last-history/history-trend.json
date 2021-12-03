@@ -1,0 +1,13 @@
+[ {
+  "buildOrder" : 1,
+  "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/1/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "failed" : 6,
+    "broken" : 3,
+    "skipped" : 0,
+    "passed" : 18,
+    "unknown" : 0,
+    "total" : 27
+  }
+} ]

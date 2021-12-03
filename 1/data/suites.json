@@ -1,0 +1,488 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Chrome",
+    "children" : [ {
+      "name" : "basics/first.test.ts",
+      "children" : [ {
+        "name" : "first basic test",
+        "uid" : "52ce2f7f205476dd",
+        "parentUid" : "71e971805fd2f6973203a45828bdf67f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638541820951,
+          "stop" : 1638541823345,
+          "duration" : 2394
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "71e971805fd2f6973203a45828bdf67f"
+    }, {
+      "name" : "basics/getRunTimeConfig.test.ts",
+      "children" : [ {
+        "name" : "Get runtime config",
+        "children" : [ {
+          "name" : "should return config",
+          "uid" : "ade517a41a161a3d",
+          "parentUid" : "bd0f8e6950c807313b3245aabb26aa8c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1638541821159,
+            "stop" : 1638541821779,
+            "duration" : 620
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "bd0f8e6950c807313b3245aabb26aa8c"
+      } ],
+      "uid" : "b8cd184855fbe511bdc92f58b24fce30"
+    }, {
+      "name" : "basics/second.test.ts",
+      "children" : [ {
+        "name" : "second basic test",
+        "uid" : "51a44cd7c768e8c8",
+        "parentUid" : "94965a55dd0010b5089d709ce9c7ea3c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638541821784,
+          "stop" : 1638541824060,
+          "duration" : 2276
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "94965a55dd0010b5089d709ce9c7ea3c"
+    }, {
+      "name" : "basics/third.test.ts",
+      "children" : [ {
+        "name" : "third basic test",
+        "uid" : "1f2ce06dc307ac3e",
+        "parentUid" : "60c4fafa9d1b18c4fb1b7dc4e20fac20",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638541823347,
+          "stop" : 1638541825131,
+          "duration" : 1784
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "60c4fafa9d1b18c4fb1b7dc4e20fac20"
+    }, {
+      "name" : "pom/login_pom.test.ts",
+      "children" : [ {
+        "name" : "Login Page Object Model",
+        "uid" : "5e046c420fe22495",
+        "parentUid" : "4112a81a502f95e3078db2c6a84bbb78",
+        "status" : "failed",
+        "time" : {
+          "start" : 1638541824064,
+          "stop" : 1638541842699,
+          "duration" : 18635
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4112a81a502f95e3078db2c6a84bbb78"
+    }, {
+      "name" : "pom/models_pom.test.ts",
+      "children" : [ {
+        "name" : "Models Page Object Model",
+        "uid" : "a73c41a52eed3b1a",
+        "parentUid" : "6608d45bdc3ed4cddac345abbc30c512",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638541825138,
+          "stop" : 1638541832681,
+          "duration" : 7543
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6608d45bdc3ed4cddac345abbc30c512"
+    }, {
+      "name" : "preserveLogin/auth.test.ts",
+      "children" : [ {
+        "name" : "Authenticate from saved storage state",
+        "uid" : "b3a079b8ea654d7c",
+        "parentUid" : "2b5a2e00a6f5d71cca918eb0fa325c06",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638541832684,
+          "stop" : 1638541838842,
+          "duration" : 6158
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2b5a2e00a6f5d71cca918eb0fa325c06"
+    }, {
+      "name" : "recorded/login.test.ts",
+      "children" : [ {
+        "name" : "test",
+        "uid" : "a4e07dcfa0b1d0dd",
+        "parentUid" : "62b61fb7d3d53a11e0211d325bee662f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1638541838846,
+          "stop" : 1638542037804,
+          "duration" : 198958
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "62b61fb7d3d53a11e0211d325bee662f"
+    }, {
+      "name" : "recorded/sample.test.ts",
+      "children" : [ {
+        "name" : "recorded test",
+        "uid" : "905b7342d187f51c",
+        "parentUid" : "0157abaa357cf2e53238c8a2a92c0408",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638541843079,
+          "stop" : 1638541852033,
+          "duration" : 8954
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0157abaa357cf2e53238c8a2a92c0408"
+    } ],
+    "uid" : "be3b43cb059a307900f233563156e40a"
+  }, {
+    "name" : "Firefox",
+    "children" : [ {
+      "name" : "basics/first.test.ts",
+      "children" : [ {
+        "name" : "first basic test",
+        "uid" : "5faa06645ae2f662",
+        "parentUid" : "abe6b88e8a2a5d40a8b9b073c6034823",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638541852423,
+          "stop" : 1638541856865,
+          "duration" : 4442
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "abe6b88e8a2a5d40a8b9b073c6034823"
+    }, {
+      "name" : "basics/getRunTimeConfig.test.ts",
+      "children" : [ {
+        "name" : "Get runtime config",
+        "children" : [ {
+          "name" : "should return config",
+          "uid" : "9efbf6b341f396c2",
+          "parentUid" : "a033a5598fd4f7b2bdba5680c4a8ce43",
+          "status" : "passed",
+          "time" : {
+            "start" : 1638541856869,
+            "stop" : 1638541856873,
+            "duration" : 4
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "a033a5598fd4f7b2bdba5680c4a8ce43"
+      } ],
+      "uid" : "2d67b0151f5618652bd269f4473ea1e8"
+    }, {
+      "name" : "basics/second.test.ts",
+      "children" : [ {
+        "name" : "second basic test",
+        "uid" : "65c18b5471379e8d",
+        "parentUid" : "983cec0c834e766d74e542318b79f1cc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638541856875,
+          "stop" : 1638541859850,
+          "duration" : 2975
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "983cec0c834e766d74e542318b79f1cc"
+    }, {
+      "name" : "basics/third.test.ts",
+      "children" : [ {
+        "name" : "third basic test",
+        "uid" : "36d649748e7170de",
+        "parentUid" : "dad9b4b33494a524e45cfeeaaa2e5248",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638541859853,
+          "stop" : 1638541862285,
+          "duration" : 2432
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dad9b4b33494a524e45cfeeaaa2e5248"
+    }, {
+      "name" : "pom/login_pom.test.ts",
+      "children" : [ {
+        "name" : "Login Page Object Model",
+        "uid" : "8256b1f71a9905eb",
+        "parentUid" : "1ea0e3f8592a93820ea13f2451102d43",
+        "status" : "failed",
+        "time" : {
+          "start" : 1638541862289,
+          "stop" : 1638541862302,
+          "duration" : 13
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1ea0e3f8592a93820ea13f2451102d43"
+    }, {
+      "name" : "pom/models_pom.test.ts",
+      "children" : [ {
+        "name" : "Models Page Object Model",
+        "uid" : "ba813b878c6d9357",
+        "parentUid" : "41316ea920ed0060689ef4659f8ed89d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1638541862653,
+          "stop" : 1638541871497,
+          "duration" : 8844
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "41316ea920ed0060689ef4659f8ed89d"
+    }, {
+      "name" : "preserveLogin/auth.test.ts",
+      "children" : [ {
+        "name" : "Authenticate from saved storage state",
+        "uid" : "46ca0c8b37692dad",
+        "parentUid" : "ff7d5aad8c4be175374838cd0646d0ae",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638541871831,
+          "stop" : 1638541881143,
+          "duration" : 9312
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ff7d5aad8c4be175374838cd0646d0ae"
+    }, {
+      "name" : "recorded/login.test.ts",
+      "children" : [ {
+        "name" : "test",
+        "uid" : "997de0048e3bf6fc",
+        "parentUid" : "b2e1b7e8b292f07bfc256785b71eb300",
+        "status" : "broken",
+        "time" : {
+          "start" : 1638541881147,
+          "stop" : 1638542061815,
+          "duration" : 180668
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b2e1b7e8b292f07bfc256785b71eb300"
+    }, {
+      "name" : "recorded/sample.test.ts",
+      "children" : [ {
+        "name" : "recorded test",
+        "uid" : "522422cd734a4d12",
+        "parentUid" : "460353d3b3c3681a3864967e26fbedc6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1638542038346,
+          "stop" : 1638542043971,
+          "duration" : 5625
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "460353d3b3c3681a3864967e26fbedc6"
+    } ],
+    "uid" : "766b375f9458bb5fe1565ec8c36ca147"
+  }, {
+    "name" : "iPhone 11",
+    "children" : [ {
+      "name" : "basics/first.test.ts",
+      "children" : [ {
+        "name" : "first basic test",
+        "uid" : "5bc38f73ca5ca682",
+        "parentUid" : "38633aa8d515432abc7a338e948796a0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638542044933,
+          "stop" : 1638542047026,
+          "duration" : 2093
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "38633aa8d515432abc7a338e948796a0"
+    }, {
+      "name" : "basics/getRunTimeConfig.test.ts",
+      "children" : [ {
+        "name" : "Get runtime config",
+        "children" : [ {
+          "name" : "should return config",
+          "uid" : "7adb1d12bb91cfe",
+          "parentUid" : "c9aa0e4015e5e3adabc2c8a0ea25d229",
+          "status" : "passed",
+          "time" : {
+            "start" : 1638542047029,
+            "stop" : 1638542047030,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "c9aa0e4015e5e3adabc2c8a0ea25d229"
+      } ],
+      "uid" : "f2a599fbfd2cf97f9b924f87b05b76df"
+    }, {
+      "name" : "basics/second.test.ts",
+      "children" : [ {
+        "name" : "second basic test",
+        "uid" : "2be35367a87031d",
+        "parentUid" : "bf384296049eae7809a8168be02f142e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638542047032,
+          "stop" : 1638542050560,
+          "duration" : 3528
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bf384296049eae7809a8168be02f142e"
+    }, {
+      "name" : "basics/third.test.ts",
+      "children" : [ {
+        "name" : "third basic test",
+        "uid" : "9115be0d35af52a1",
+        "parentUid" : "1dda97b34b1ffa76d33a707bd8165206",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638542050562,
+          "stop" : 1638542052755,
+          "duration" : 2193
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1dda97b34b1ffa76d33a707bd8165206"
+    }, {
+      "name" : "pom/login_pom.test.ts",
+      "children" : [ {
+        "name" : "Login Page Object Model",
+        "uid" : "14e30b352e30529e",
+        "parentUid" : "d0e18c4d1845002f8113abfdbd432fd2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1638542052758,
+          "stop" : 1638542071829,
+          "duration" : 19071
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d0e18c4d1845002f8113abfdbd432fd2"
+    }, {
+      "name" : "pom/models_pom.test.ts",
+      "children" : [ {
+        "name" : "Models Page Object Model",
+        "uid" : "d9041bd67ab51628",
+        "parentUid" : "cf635fcc244f5bed408ab513af7a856a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638542062146,
+          "stop" : 1638542071453,
+          "duration" : 9307
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cf635fcc244f5bed408ab513af7a856a"
+    }, {
+      "name" : "preserveLogin/auth.test.ts",
+      "children" : [ {
+        "name" : "Authenticate from saved storage state",
+        "uid" : "e305d2de5b95715a",
+        "parentUid" : "7b5c87de59c2903d551e90c4be9fbf3e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638542071456,
+          "stop" : 1638542078406,
+          "duration" : 6950
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7b5c87de59c2903d551e90c4be9fbf3e"
+    }, {
+      "name" : "recorded/login.test.ts",
+      "children" : [ {
+        "name" : "test",
+        "uid" : "8e10d44460704282",
+        "parentUid" : "175e9ab61e1b95e8913a1f8281f60cff",
+        "status" : "broken",
+        "time" : {
+          "start" : 1638542072189,
+          "stop" : 1638542260963,
+          "duration" : 188774
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "175e9ab61e1b95e8913a1f8281f60cff"
+    }, {
+      "name" : "recorded/sample.test.ts",
+      "children" : [ {
+        "name" : "recorded test",
+        "uid" : "c6f176b5241a3b44",
+        "parentUid" : "5d68f80d4ce2c7b0ed1a6fa2923c781f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1638542078408,
+          "stop" : 1638542087699,
+          "duration" : 9291
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5d68f80d4ce2c7b0ed1a6fa2923c781f"
+    } ],
+    "uid" : "b8062eaccf145790e232b802c2a153aa"
+  } ],
+  "name" : "suites"
+}

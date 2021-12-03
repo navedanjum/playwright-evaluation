@@ -1,0 +1,551 @@
+{
+  "Firefox recorded/sample.test.ts recorded test" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "522422cd734a4d12",
+      "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/1//#testresult/522422cd734a4d12",
+      "status" : "failed",
+      "statusDetails" : "page.goto: NS_BINDING_ABORTED; maybe frame was detached?\n=========================== logs ===========================\nnavigating to \"https://deconv.com/explore/models\", waiting until \"load\"\n============================================================",
+      "time" : {
+        "start" : 1638542038346,
+        "stop" : 1638542043971,
+        "duration" : 5625
+      }
+    } ]
+  },
+  "iPhone 11 basics/third.test.ts third basic test" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9115be0d35af52a1",
+      "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/1//#testresult/9115be0d35af52a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638542050562,
+        "stop" : 1638542052755,
+        "duration" : 2193
+      }
+    } ]
+  },
+  "Chrome recorded/login.test.ts test" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a4e07dcfa0b1d0dd",
+      "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/1//#testresult/a4e07dcfa0b1d0dd",
+      "status" : "broken",
+      "statusDetails" : "page.waitForNavigation: Navigation failed because page was closed!\n=========================== logs ===========================\nwaiting for navigation until \"load\"\n============================================================",
+      "time" : {
+        "start" : 1638541838846,
+        "stop" : 1638542037804,
+        "duration" : 198958
+      }
+    } ]
+  },
+  "iPhone 11 basics/getRunTimeConfig.test.ts Get runtime config should return config" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7adb1d12bb91cfe",
+      "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/1//#testresult/7adb1d12bb91cfe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638542047029,
+        "stop" : 1638542047030,
+        "duration" : 1
+      }
+    } ]
+  },
+  "Chrome preserveLogin/auth.test.ts Authenticate from saved storage state" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b3a079b8ea654d7c",
+      "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/1//#testresult/b3a079b8ea654d7c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638541832684,
+        "stop" : 1638541838842,
+        "duration" : 6158
+      }
+    } ]
+  },
+  "iPhone 11 basics/first.test.ts first basic test" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5bc38f73ca5ca682",
+      "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/1//#testresult/5bc38f73ca5ca682",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638542044933,
+        "stop" : 1638542047026,
+        "duration" : 2093
+      }
+    } ]
+  },
+  "Chrome basics/third.test.ts third basic test" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1f2ce06dc307ac3e",
+      "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/1//#testresult/1f2ce06dc307ac3e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638541823347,
+        "stop" : 1638541825131,
+        "duration" : 1784
+      }
+    } ]
+  },
+  "Firefox pom/models_pom.test.ts Models Page Object Model" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ba813b878c6d9357",
+      "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/1//#testresult/ba813b878c6d9357",
+      "status" : "failed",
+      "statusDetails" : "browserContext.close: tracing.stopChunk: ENOENT: no such file or directory, open '/tmp/playwright-artifacts-b0YkKy/resources/page@3d0bd0dced136a7b079d910d61859e62-0000000066.jpeg'",
+      "time" : {
+        "start" : 1638541862653,
+        "stop" : 1638541871497,
+        "duration" : 8844
+      }
+    } ]
+  },
+  "Chrome pom/login_pom.test.ts Login Page Object Model" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5e046c420fe22495",
+      "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/1//#testresult/5e046c420fe22495",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toBeVisible()\n\nCall log:\n  - waiting for selector \"text=Login successful\"\n",
+      "time" : {
+        "start" : 1638541824064,
+        "stop" : 1638541842699,
+        "duration" : 18635
+      }
+    } ]
+  },
+  "Chrome recorded/sample.test.ts recorded test" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "905b7342d187f51c",
+      "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/1//#testresult/905b7342d187f51c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638541843079,
+        "stop" : 1638541852033,
+        "duration" : 8954
+      }
+    } ]
+  },
+  "Chrome pom/models_pom.test.ts Models Page Object Model" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a73c41a52eed3b1a",
+      "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/1//#testresult/a73c41a52eed3b1a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638541825138,
+        "stop" : 1638541832681,
+        "duration" : 7543
+      }
+    } ]
+  },
+  "Firefox recorded/login.test.ts test" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "997de0048e3bf6fc",
+      "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/1//#testresult/997de0048e3bf6fc",
+      "status" : "broken",
+      "statusDetails" : "page.waitForNavigation: Navigation failed because page was closed!\n=========================== logs ===========================\nwaiting for navigation until \"load\"\n============================================================",
+      "time" : {
+        "start" : 1638541881147,
+        "stop" : 1638542061815,
+        "duration" : 180668
+      }
+    } ]
+  },
+  "iPhone 11 recorded/login.test.ts test" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8e10d44460704282",
+      "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/1//#testresult/8e10d44460704282",
+      "status" : "broken",
+      "statusDetails" : "page.waitForNavigation: Navigation failed because page was closed!\n=========================== logs ===========================\nwaiting for navigation until \"load\"\n============================================================",
+      "time" : {
+        "start" : 1638542072189,
+        "stop" : 1638542260963,
+        "duration" : 188774
+      }
+    } ]
+  },
+  "iPhone 11 basics/second.test.ts second basic test" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2be35367a87031d",
+      "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/1//#testresult/2be35367a87031d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638542047032,
+        "stop" : 1638542050560,
+        "duration" : 3528
+      }
+    } ]
+  },
+  "iPhone 11 recorded/sample.test.ts recorded test" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c6f176b5241a3b44",
+      "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/1//#testresult/c6f176b5241a3b44",
+      "status" : "failed",
+      "statusDetails" : "page.goto: Navigation interrupted by another one\n=========================== logs ===========================\nnavigating to \"https://deconv.com/explore/models\", waiting until \"load\"\n============================================================",
+      "time" : {
+        "start" : 1638542078408,
+        "stop" : 1638542087699,
+        "duration" : 9291
+      }
+    } ]
+  },
+  "iPhone 11 pom/models_pom.test.ts Models Page Object Model" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d9041bd67ab51628",
+      "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/1//#testresult/d9041bd67ab51628",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638542062146,
+        "stop" : 1638542071453,
+        "duration" : 9307
+      }
+    } ]
+  },
+  "Chrome basics/second.test.ts second basic test" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "51a44cd7c768e8c8",
+      "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/1//#testresult/51a44cd7c768e8c8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638541821784,
+        "stop" : 1638541824060,
+        "duration" : 2276
+      }
+    } ]
+  },
+  "iPhone 11 preserveLogin/auth.test.ts Authenticate from saved storage state" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e305d2de5b95715a",
+      "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/1//#testresult/e305d2de5b95715a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638542071456,
+        "stop" : 1638542078406,
+        "duration" : 6950
+      }
+    } ]
+  },
+  "Firefox preserveLogin/auth.test.ts Authenticate from saved storage state" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "46ca0c8b37692dad",
+      "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/1//#testresult/46ca0c8b37692dad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638541871831,
+        "stop" : 1638541881143,
+        "duration" : 9312
+      }
+    } ]
+  },
+  "Chrome basics/getRunTimeConfig.test.ts Get runtime config should return config" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ade517a41a161a3d",
+      "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/1//#testresult/ade517a41a161a3d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638541821159,
+        "stop" : 1638541821779,
+        "duration" : 620
+      }
+    } ]
+  },
+  "Firefox basics/third.test.ts third basic test" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "36d649748e7170de",
+      "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/1//#testresult/36d649748e7170de",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638541859853,
+        "stop" : 1638541862285,
+        "duration" : 2432
+      }
+    } ]
+  },
+  "Firefox basics/first.test.ts first basic test" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5faa06645ae2f662",
+      "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/1//#testresult/5faa06645ae2f662",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638541852423,
+        "stop" : 1638541856865,
+        "duration" : 4442
+      }
+    } ]
+  },
+  "Firefox pom/login_pom.test.ts Login Page Object Model" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8256b1f71a9905eb",
+      "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/1//#testresult/8256b1f71a9905eb",
+      "status" : "failed",
+      "statusDetails" : "browser.newContext: Target page, context or browser has been closed",
+      "time" : {
+        "start" : 1638541862289,
+        "stop" : 1638541862302,
+        "duration" : 13
+      }
+    } ]
+  },
+  "Firefox basics/getRunTimeConfig.test.ts Get runtime config should return config" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9efbf6b341f396c2",
+      "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/1//#testresult/9efbf6b341f396c2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638541856869,
+        "stop" : 1638541856873,
+        "duration" : 4
+      }
+    } ]
+  },
+  "Firefox basics/second.test.ts second basic test" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "65c18b5471379e8d",
+      "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/1//#testresult/65c18b5471379e8d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638541856875,
+        "stop" : 1638541859850,
+        "duration" : 2975
+      }
+    } ]
+  },
+  "iPhone 11 pom/login_pom.test.ts Login Page Object Model" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "14e30b352e30529e",
+      "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/1//#testresult/14e30b352e30529e",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toBeVisible()\n\nCall log:\n  - waiting for selector \"text=Login successful\"\n",
+      "time" : {
+        "start" : 1638542052758,
+        "stop" : 1638542071829,
+        "duration" : 19071
+      }
+    } ]
+  },
+  "Chrome basics/first.test.ts first basic test" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "52ce2f7f205476dd",
+      "reportUrl" : "https://navedanjum.github.io/playwright-evaluation/1//#testresult/52ce2f7f205476dd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638541820951,
+        "stop" : 1638541823345,
+        "duration" : 2394
+      }
+    } ]
+  }
+}

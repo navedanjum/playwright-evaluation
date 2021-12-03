@@ -1,0 +1,302 @@
+{
+  "uid" : "a4e07dcfa0b1d0dd",
+  "name" : "test",
+  "fullName" : "test",
+  "historyId" : "Chrome recorded/login.test.ts test",
+  "time" : {
+    "start" : 1638541838846,
+    "stop" : 1638542037804,
+    "duration" : 198958
+  },
+  "status" : "broken",
+  "statusMessage" : "page.waitForNavigation: Navigation failed because page was closed!\n=========================== logs ===========================\nwaiting for navigation until \"load\"\n============================================================",
+  "statusTrace" : "page.waitForNavigation: Navigation failed because page was closed!\n=========================== logs ===========================\nwaiting for navigation until \"load\"\n============================================================\n    at /home/runner/work/playwright-evaluation/playwright-evaluation/e2etests/recorded/login.test.ts:29:10",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "page.waitForNavigation: Navigation failed because page was closed!\n=========================== logs ===========================\nwaiting for navigation until \"load\"\n============================================================",
+    "statusTrace" : "page.waitForNavigation: Navigation failed because page was closed!\n=========================== logs ===========================\nwaiting for navigation until \"load\"\n============================================================\n    at /home/runner/work/playwright-evaluation/playwright-evaluation/e2etests/recorded/login.test.ts:29:10",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1638541838847,
+        "stop" : 1638541838920,
+        "duration" : 73
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.newPage",
+        "time" : {
+          "start" : 1638541838856,
+          "stop" : 1638541838920,
+          "duration" : 64
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "page.goto(/explore)",
+      "time" : {
+        "start" : 1638541838921,
+        "stop" : 1638541839837,
+        "duration" : 916
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.click(text=Log in)",
+      "time" : {
+        "start" : 1638541839838,
+        "stop" : 1638541840016,
+        "duration" : 178
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expect.toHaveURL",
+      "time" : {
+        "start" : 1638541840017,
+        "stop" : 1638541840268,
+        "duration" : 251
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.click([placeholder=\"Email\"])",
+      "time" : {
+        "start" : 1638541840268,
+        "stop" : 1638541840430,
+        "duration" : 162
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.fill([placeholder=\"Email\"])",
+      "time" : {
+        "start" : 1638541840430,
+        "stop" : 1638541840513,
+        "duration" : 83
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.click([placeholder=\"Password\"])",
+      "time" : {
+        "start" : 1638541840513,
+        "stop" : 1638541840618,
+        "duration" : 105
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.click([placeholder=\"Password\"])",
+      "time" : {
+        "start" : 1638541840618,
+        "stop" : 1638541840684,
+        "duration" : 66
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.fill([placeholder=\"Password\"])",
+      "time" : {
+        "start" : 1638541840685,
+        "stop" : 1638541840708,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.waitForNavigation",
+      "time" : {
+        "start" : 1638541840709,
+        "stop" : 1638542019337,
+        "duration" : 178628
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.click([data-testid=\"signInButton\"])",
+      "time" : {
+        "start" : 1638541840710,
+        "stop" : 1638541840788,
+        "duration" : 78
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1638542018944,
+        "stop" : 1638542037805,
+        "duration" : 18861
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1638542019328,
+          "stop" : 1638542037416,
+          "duration" : 18088
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "3f7bf36f175d8763",
+      "name" : "video",
+      "source" : "3f7bf36f175d8763.webm",
+      "type" : "video/webm",
+      "size" : 2765914
+    }, {
+      "uid" : "b9a65d91a17c787e",
+      "name" : "trace",
+      "source" : "b9a65d91a17c787e.ZIP",
+      "type" : "application/zip",
+      "size" : 1322461
+    }, {
+      "uid" : "7a76951f28d258b1",
+      "name" : "screenshot",
+      "source" : "7a76951f28d258b1.png",
+      "type" : "image/png",
+      "size" : 376049
+    }, {
+      "uid" : "9ad4e298c6711b36",
+      "name" : "trace",
+      "source" : "9ad4e298c6711b36.ZIP",
+      "type" : "application/zip",
+      "size" : 1606669
+    }, {
+      "uid" : "45af86bccd50ecbb",
+      "name" : "screenshot",
+      "source" : "45af86bccd50ecbb.png",
+      "type" : "image/png",
+      "size" : 139721
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 14,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Chrome"
+  }, {
+    "name" : "suite",
+    "value" : "recorded/login.test.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "a4e07dcfa0b1d0dd.json",
+  "parameterValues" : [ ]
+}

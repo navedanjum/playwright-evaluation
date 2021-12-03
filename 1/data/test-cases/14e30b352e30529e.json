@@ -1,0 +1,230 @@
+{
+  "uid" : "14e30b352e30529e",
+  "name" : "Login Page Object Model",
+  "fullName" : "Login Page Object Model",
+  "historyId" : "iPhone 11 pom/login_pom.test.ts Login Page Object Model",
+  "time" : {
+    "start" : 1638542052758,
+    "stop" : 1638542071829,
+    "duration" : 19071
+  },
+  "status" : "failed",
+  "statusMessage" : "expect(received).toBeVisible()\n\nCall log:\n  - waiting for selector \"text=Login successful\"\n",
+  "statusTrace" : "\n    at /home/runner/work/playwright-evaluation/playwright-evaluation/e2etests/pom/login_pom.test.ts:9:57\n    at WorkerRunner._runTestWithBeforeHooks (/home/runner/work/playwright-evaluation/playwright-evaluation/node_modules/@playwright/test/lib/workerRunner.js:478:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expect(received).toBeVisible()\n\nCall log:\n  - waiting for selector \"text=Login successful\"\n",
+    "statusTrace" : "\n    at /home/runner/work/playwright-evaluation/playwright-evaluation/e2etests/pom/login_pom.test.ts:9:57\n    at WorkerRunner._runTestWithBeforeHooks (/home/runner/work/playwright-evaluation/playwright-evaluation/node_modules/@playwright/test/lib/workerRunner.js:478:7)",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1638542052758,
+        "stop" : 1638542053466,
+        "duration" : 708
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.newPage",
+        "time" : {
+          "start" : 1638542052789,
+          "stop" : 1638542053465,
+          "duration" : 676
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "page.goto(/login)",
+      "time" : {
+        "start" : 1638542053467,
+        "stop" : 1638542054419,
+        "duration" : 952
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expect.toHaveURL",
+      "time" : {
+        "start" : 1638542054420,
+        "stop" : 1638542054599,
+        "duration" : 179
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.type(id=email, foobarblahblah@clarifai.com)",
+      "time" : {
+        "start" : 1638542054600,
+        "stop" : 1638542055407,
+        "duration" : 807
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.type(id=password, ********)",
+      "time" : {
+        "start" : 1638542055407,
+        "stop" : 1638542055724,
+        "duration" : 317
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.click(data-testid=signInButton)",
+      "time" : {
+        "start" : 1638542055724,
+        "stop" : 1638542055855,
+        "duration" : 131
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expect.toBeVisible",
+      "time" : {
+        "start" : 1638542055855,
+        "stop" : 1638542070896,
+        "duration" : 15041
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1638542070897,
+        "stop" : 1638542071828,
+        "duration" : 931
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1638542071081,
+          "stop" : 1638542071819,
+          "duration" : 738
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "4f25c65abbccfb6",
+      "name" : "video",
+      "source" : "4f25c65abbccfb6.webm",
+      "type" : "video/webm",
+      "size" : 330828
+    }, {
+      "uid" : "64241f1f5ccdb123",
+      "name" : "trace",
+      "source" : "64241f1f5ccdb123.ZIP",
+      "type" : "application/zip",
+      "size" : 96334
+    }, {
+      "uid" : "40a94959b7d37688",
+      "name" : "screenshot",
+      "source" : "40a94959b7d37688.png",
+      "type" : "image/png",
+      "size" : 60402
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 10,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "iPhone 11"
+  }, {
+    "name" : "suite",
+    "value" : "pom/login_pom.test.ts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "14e30b352e30529e.json",
+  "parameterValues" : [ ]
+}

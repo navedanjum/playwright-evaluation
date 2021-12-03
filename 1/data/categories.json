@@ -1,0 +1,154 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expect(received).toBeVisible()\n\nCall log:\n  - waiting for selector \"text=Login successful\"\n",
+      "children" : [ {
+        "name" : "Login Page Object Model",
+        "uid" : "5e046c420fe22495",
+        "parentUid" : "d5374d7fa76d4b77cc3c7fac676a334b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1638541824064,
+          "stop" : 1638541842699,
+          "duration" : 18635
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login Page Object Model",
+        "uid" : "14e30b352e30529e",
+        "parentUid" : "d5374d7fa76d4b77cc3c7fac676a334b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1638542052758,
+          "stop" : 1638542071829,
+          "duration" : 19071
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d5374d7fa76d4b77cc3c7fac676a334b"
+    }, {
+      "name" : "browser.newContext: Target page, context or browser has been closed",
+      "children" : [ {
+        "name" : "Login Page Object Model",
+        "uid" : "8256b1f71a9905eb",
+        "parentUid" : "08d0875b5fa614a00df480027c2c9559",
+        "status" : "failed",
+        "time" : {
+          "start" : 1638541862289,
+          "stop" : 1638541862302,
+          "duration" : 13
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "08d0875b5fa614a00df480027c2c9559"
+    }, {
+      "name" : "browserContext.close: tracing.stopChunk: ENOENT: no such file or directory, open '/tmp/playwright-artifacts-b0YkKy/resources/page@3d0bd0dced136a7b079d910d61859e62-0000000066.jpeg'",
+      "children" : [ {
+        "name" : "Models Page Object Model",
+        "uid" : "ba813b878c6d9357",
+        "parentUid" : "3940bfb32e03f6ffbe423a1be747d898",
+        "status" : "failed",
+        "time" : {
+          "start" : 1638541862653,
+          "stop" : 1638541871497,
+          "duration" : 8844
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3940bfb32e03f6ffbe423a1be747d898"
+    }, {
+      "name" : "page.goto: NS_BINDING_ABORTED; maybe frame was detached?\n=========================== logs ===========================\nnavigating to \"https://deconv.com/explore/models\", waiting until \"load\"\n============================================================",
+      "children" : [ {
+        "name" : "recorded test",
+        "uid" : "522422cd734a4d12",
+        "parentUid" : "0ac20372ffc9fd63dca6a72320ef1b92",
+        "status" : "failed",
+        "time" : {
+          "start" : 1638542038346,
+          "stop" : 1638542043971,
+          "duration" : 5625
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0ac20372ffc9fd63dca6a72320ef1b92"
+    }, {
+      "name" : "page.goto: Navigation interrupted by another one\n=========================== logs ===========================\nnavigating to \"https://deconv.com/explore/models\", waiting until \"load\"\n============================================================",
+      "children" : [ {
+        "name" : "recorded test",
+        "uid" : "c6f176b5241a3b44",
+        "parentUid" : "559edb9f4479f579e70e09a47f2780af",
+        "status" : "failed",
+        "time" : {
+          "start" : 1638542078408,
+          "stop" : 1638542087699,
+          "duration" : 9291
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "559edb9f4479f579e70e09a47f2780af"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "page.waitForNavigation: Navigation failed because page was closed!\n=========================== logs ===========================\nwaiting for navigation until \"load\"\n============================================================",
+      "children" : [ {
+        "name" : "test",
+        "uid" : "a4e07dcfa0b1d0dd",
+        "parentUid" : "2b8ecdcf08ac03636c19d4dba9dc89aa",
+        "status" : "broken",
+        "time" : {
+          "start" : 1638541838846,
+          "stop" : 1638542037804,
+          "duration" : 198958
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test",
+        "uid" : "997de0048e3bf6fc",
+        "parentUid" : "2b8ecdcf08ac03636c19d4dba9dc89aa",
+        "status" : "broken",
+        "time" : {
+          "start" : 1638541881147,
+          "stop" : 1638542061815,
+          "duration" : 180668
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test",
+        "uid" : "8e10d44460704282",
+        "parentUid" : "2b8ecdcf08ac03636c19d4dba9dc89aa",
+        "status" : "broken",
+        "time" : {
+          "start" : 1638542072189,
+          "stop" : 1638542260963,
+          "duration" : 188774
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2b8ecdcf08ac03636c19d4dba9dc89aa"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
