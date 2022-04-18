@@ -1,6 +1,12 @@
 name: ci
 
 on:
+  workflow_dispatch:
+    inputs:
+      run_environment:
+        description: 'Trigger run on provided environment'
+        default: 'dev'
+        required: true
   push:
     branches: [ main ]
   pull_request:
